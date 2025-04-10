@@ -1,13 +1,20 @@
-import { Stack, useRouter } from 'expo-router';
+import { Stack, useNavigation, useRouter } from 'expo-router';
 import { Text, TouchableOpacity } from 'react-native';
+import { useFocusEffect } from '@react-navigation/native';
 import * as s from '@styles/index';
 
 export default function Index() {
 	const router = useRouter();
-
 	const handleClick = () => {
 		router.replace('/Auth');
 	};
+
+	const navigation = useNavigation();
+	useFocusEffect(() => {
+		navigation.setOptions({
+			headerLeft: () => null,
+		});
+	});
 
 	return (
 		<>
@@ -16,6 +23,8 @@ export default function Index() {
 					title: '',
 					headerShadowVisible: false,
 					headerShown: true,
+					headerBackVisible: false,
+					headerLeft: () => null,
 					gestureEnabled: true,
 					animation: 'none',
 					headerStyle: {
