@@ -9,6 +9,7 @@ export default function RootLayout() {
 		PretendardSemiBold: require('@/assets/fonts/Pretendard-SemiBold.otf'),
 		PretendardMedium: require('@/assets/fonts/Pretendard-Medium.otf'),
 		PretendardRegular: require('@/assets/fonts/Pretendard-Regular.otf'),
+		EliceDigitalBaeumRegular: require('@/assets/fonts/EliceDigitalBaeum-Regular.otf'),
 	});
 
 	if (!fontsLoaded) return null;

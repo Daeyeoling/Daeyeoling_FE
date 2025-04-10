@@ -1,6 +1,10 @@
 import { css } from 'styled-components/native';
 
 export const font = {
+	Logo: css`
+    font-size: 50px;
+    font-family: EliceDigitalBaeumRegular;
+  `,
 	LargeTitle: css`
     font-size: 34px;
     line-height: 140%;
