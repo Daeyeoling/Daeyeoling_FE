@@ -1,4 +1,6 @@
 import styled from 'styled-components/native';
+import { font } from './font';
+import { theme } from './theme';
 
 export const Container = styled.View`
   flex: 1;
@@ -13,4 +15,8 @@ export const Label = styled.Text`
 
 export const LogoImg = styled.Image`
   width: 197px;
+`;
+export const LogoText = styled.Text`
+  ${font.Logo}
+  ${theme.G500}
 `;

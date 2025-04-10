@@ -18,7 +18,7 @@ export default function Index() {
 		<s.Container>
 			<s.LogoImg source={logoImg} />
 			<s.Label>
-				<Text>ㅁㄴㄹㅇㄴㅇㄹ</Text>
+				<s.LogoText>대여링</s.LogoText>
 			</s.Label>
 		</s.Container>
 	);
