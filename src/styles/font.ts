@@ -7,76 +7,76 @@ export const font = {
   `,
 	LargeTitle: css`
     font-size: 34px;
-    line-height: 140%;
+    line-height: 47.6px;
     font-weight: bold;
     font-family: PretendardBold;
   `,
 	Title1: css`
     font-size: 28px;
-    line-height: 140%;
+    line-height: 39.2px;
     font-weight: bold;
     font-family: PretendardBold;
   `,
 	Title2: css`
     font-size: 24px;
-    line-height:140%;
+    line-height: 33.6px;
     font-weight: bold;
     font-family: PretendardBold;
   `,
 	Title3: css`
     font-size: 20px;
-    line-height: 140%;
+    line-height: 28px;
     font-weight: bold;
     font-family: PretendardBold;
   `,
 	Headline: css`
     font-size: 18px;
-    line-height: 140%;
+    line-height: 25.2px; 
     font-family: PretendardSemiBold;
   `,
 	Bdoy1: css`
     font-size: 18px;
-    line-height: 150%;
+    line-height: 27px;
     font-family: PretendardMedium;
   `,
 	Body2: css`
     font-size: 16px;
-    line-height: 150%;
+    line-height: 24px;
     font-family: PretendardMedium;
   `,
 	Body3: css`
     font-size: 14px;
-    line-height: 150%;
+    line-height: 21px;
     font-family: PretendardMedium;
   `,
 	Footnote: css`
     font-size: 13px;
-    line-height: 150%;
+    line-height: 19.5px;
     font-family: PretendardRegular;
   `,
-	caption1: css`
+	Caption1: css`
     font-size: 12px;
-    line-height: 120%;
+    line-height: 14.4px;
     font-family: PretendardMedium;
   `,
-	caption2: css`
+	Caption2: css`
     font-size: 11px;
-    line-height: 120%;
+    line-height: 13.2px;
     font-family: PretendardMedium;
   `,
-	Bnt1: css`
+	Btn1: css`
     font-size: 18px;
-    line-height: 100%;
+    line-height: 18px;
     font-family: PretendardSemiBold;
   `,
-	Bnt2: css`
+	Btn2: css`
     font-size: 16px;
-    line-height: 100%;
+    line-height: 16px;
     font-family: PretendardSemiBold;
   `,
-	Bnt3: css`
+	Btn3: css`
     font-size: 14px;
-    line-height: 100%;
+    line-height: 14px;
     font-family: PretendardMedium;
   `,
 };

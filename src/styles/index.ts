@@ -7,6 +7,7 @@ export const Container = styled.View`
   justify-content: center;
   align-items: center;
   background-color: #fff;
+  padding: 0 24px;
 `;
 
 export const Label = styled.Text`
@@ -18,5 +19,5 @@ export const LogoImg = styled.Image`
 `;
 export const LogoText = styled.Text`
   ${font.Logo}
-  ${theme.G500}
+  color: ${theme.G500};
 `;
