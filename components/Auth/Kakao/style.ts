@@ -4,11 +4,10 @@ import { theme } from '@/src/styles/theme';
 
 export const Container = styled.View`
   width: 100%;
-  height: 48px;
   justify-content: center;
   align-items: center;
   position: relative;
-  padding: 0 16px;
+  padding: 18px 16px;
   background-color: #FEE500;
   border-radius: 12px;
 `;

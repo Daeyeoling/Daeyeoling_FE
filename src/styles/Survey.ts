@@ -8,6 +8,11 @@ export const Container = styled.View`
   height: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
   align-items: center;
+`;
+
+export const Layout = styled.View`
+  width: 10px;
+  height: 20px;
+  border-top: 2px solid ${theme.G200};
 `;

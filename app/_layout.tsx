@@ -13,17 +13,10 @@ export default function RootLayout() {
 	if (!fontsLoaded) return null;
 
 	return (
-			<Stack>
-				<Stack.Screen
-					name='index'
-					options={{
-						title: '',
-						headerShadowVisible: false,
-						headerStyle: {
-							backgroundColor: '#FFF',
-						},
-					}}
-				/>
-			</Stack>
+		<Stack>
+			<Stack.Screen name='index' />
+			<Stack.Screen name='Auth' />
+			<Stack.Screen name='Survey' />
+		</Stack>
 	);
 }

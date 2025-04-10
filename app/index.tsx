@@ -1,25 +1,34 @@
-import { useNavigation } from 'expo-router';
-import { useLayoutEffect } from 'react';
-import { View, Text } from 'react-native';
+import { Stack, useRouter } from 'expo-router';
+import { Text, TouchableOpacity } from 'react-native';
 import * as s from '@styles/index';
-import logoImg from '@assets/images/Logo.png';
 
 export default function Index() {
-	const navigation = useNavigation();
+	const router = useRouter();
 
-	useLayoutEffect(() => {
-		navigation.setOptions({
-			title: '',
-			headerShown: true,
-		});
-	}, [navigation]);
+	const handleClick = () => {
+		router.replace('/Auth');
+	};
 
 	return (
-		<s.Container>
-			<s.LogoImg source={logoImg} />
-			<s.Label>
-				<s.LogoText>대여링</s.LogoText>
-			</s.Label>
-		</s.Container>
+		<>
+			<Stack.Screen
+				options={{
+					title: '',
+					headerShadowVisible: false,
+					headerShown: true,
+					gestureEnabled: true,
+					animation: 'none',
+					headerStyle: {
+						backgroundColor: '#FFF',
+					},
+				}}
+			/>
+			<s.Container>
+				<TouchableOpacity onPress={handleClick}>
+					<Text>Click Me</Text>
+				</TouchableOpacity>
+				<Text>Home</Text>
+			</s.Container>
+		</>
 	);
 }
